@@ -3,6 +3,7 @@ pipeline {
     registry = "thedeepsyadav/devsecops-training"
     registryCredential = "DockerHub"
     dockerImage = ''
+ 
   }
   
   agent any
