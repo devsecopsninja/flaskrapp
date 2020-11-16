@@ -34,5 +34,5 @@ pipeline {
         sh 'docker run -d -p 5000:5000 --name flaskr devsecopsninja/devsecops:latest'
       }
     }
-       
+  }     
 }
